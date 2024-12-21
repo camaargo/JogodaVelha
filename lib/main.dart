@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: titulo,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 132, 31, 4)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 109, 47, 151)),
         useMaterial3: true,
       ),
       home: const HomePage(title: titulo),
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                     child: Container(
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 255, 252, 245),
+                          color: const Color.fromARGB(255, 247, 235, 251),
                           borderRadius: BorderRadius.circular(5.0),
                           border: Border.all(
                             color: Colors.black,
