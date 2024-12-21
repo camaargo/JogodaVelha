@@ -155,7 +155,7 @@ class _JogoDaVelhaState extends State<JogoDaVelha> {
                   onTap: () => _jogada(index),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 242, 237, 88),
+                      color: const Color.fromARGB(255, 188, 75, 208),
                       borderRadius: BorderRadius.circular(5),
                     ),
                     child: Center(
